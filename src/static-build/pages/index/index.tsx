@@ -105,21 +105,6 @@ const Index: FunctionalComponent<Props> = () => (
           }}
         />
       </div>
-      <div>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2545962360562415"
-          crossOrigin="anonymous"
-        ></script>
-        <ins
-          class="adsbygoogle"
-          style="display:block"
-          data-ad-format="autorelaxed"
-          data-ad-client="ca-pub-2545962360562415"
-          data-ad-slot="4419094259"
-        ></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-      </div>
     </body>
   </html>
 );

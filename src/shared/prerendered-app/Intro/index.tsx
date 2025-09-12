@@ -227,6 +227,20 @@ export default class Intro extends Component<Props, State> {
   ) {
     return (
       <div class={style.intro}>
+        <div>
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2545962360562415"
+            crossOrigin="anonymous"
+          ></script>
+          <ins
+            class="adsbygoogle"
+            style="display:inline-block;width:720px;height:120px"
+            data-ad-client="ca-pub-2545962360562415"
+            data-ad-slot="7081750762"
+          ></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
         <input
           class={style.hide}
           ref={linkRef(this, 'fileInput')}
@@ -442,6 +456,20 @@ export default class Intro extends Component<Props, State> {
             </div>
           </div>
         </footer>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2545962360562415"
+          crossOrigin="anonymous"
+        ></script>
+        <ins
+          class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-2545962360562415"
+          data-ad-slot="4758005604"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
       </div>
     );
   }
