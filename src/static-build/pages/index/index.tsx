@@ -28,6 +28,7 @@ const Index: FunctionalComponent<Props> = () => (
   <html lang="en">
     <head>
       <title>Smaller</title>
+      <meta charSet="utf-8" />
       <meta
         name="description"
         content="Smaller是一款卓越的图像优化工具，它让您能够在浏览器中压缩并对比采用不同编解码器的图像效果"
