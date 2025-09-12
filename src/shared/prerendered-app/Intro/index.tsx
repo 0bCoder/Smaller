@@ -280,7 +280,7 @@ export default class Intro extends Component<Props, State> {
                 <span class={style.dropText}>拖拽至此 </span>或{' '}
                 {supportsClipboardAPI ? (
                   <button class={style.pasteBtn} onClick={this.onPasteClick}>
-                    Paste
+                    粘贴
                   </button>
                 ) : (
                   '粘贴'
