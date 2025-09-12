@@ -240,7 +240,7 @@ export default class Intro extends Component<Props, State> {
               class={style.blobCanvas}
             />
           )}
-          <h1 class={style.logoContainer}>Smaller</h1>
+          <h1 class={style.logoContainer}>Smaller 图片格式转换工具</h1>
           <div class={style.loadImg}>
             {showBlobSVG && (
               <svg

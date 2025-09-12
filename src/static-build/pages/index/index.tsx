@@ -68,6 +68,11 @@ const Index: FunctionalComponent<Props> = () => (
           __html: escapeStyleScriptContent(initialCss),
         }}
       />
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2545962360562415"
+        crossOrigin="anonymous"
+      ></script>
     </head>
     <body>
       <div id="app">
@@ -94,6 +99,21 @@ const Index: FunctionalComponent<Props> = () => (
             </div>
           </snack-bar>
         </noscript>
+      </div>
+      <div>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2545962360562415"
+          crossOrigin="anonymous"
+        ></script>
+        <ins
+          class="adsbygoogle"
+          style="display:block"
+          data-ad-format="autorelaxed"
+          data-ad-client="ca-pub-2545962360562415"
+          data-ad-slot="4419094259"
+        ></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
       </div>
       <script
         dangerouslySetInnerHTML={{
