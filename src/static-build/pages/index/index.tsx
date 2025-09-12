@@ -99,6 +99,11 @@ const Index: FunctionalComponent<Props> = () => (
             </div>
           </snack-bar>
         </noscript>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: escapeStyleScriptContent(allSrc),
+          }}
+        />
       </div>
       <div>
         <script
