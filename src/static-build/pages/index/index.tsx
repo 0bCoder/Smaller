@@ -100,6 +100,11 @@ const Index: FunctionalComponent<Props> = () => (
           </snack-bar>
         </noscript>
       </div>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: escapeStyleScriptContent(allSrc),
+        }}
+      />
       <div>
         <script
           async
@@ -115,11 +120,6 @@ const Index: FunctionalComponent<Props> = () => (
         ></ins>
         <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
       </div>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: escapeStyleScriptContent(allSrc),
-        }}
-      />
     </body>
   </html>
 );

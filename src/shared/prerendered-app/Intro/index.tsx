@@ -428,16 +428,15 @@ export default class Intro extends Component<Props, State> {
               <footer class={style.footerItems}>
                 <a
                   class={style.footerLink}
-                  href="https://github.com/0bCoder/Smaller#privacy"
+                  href="https://iters365.com/privacy/"
                 >
                   隐私条款
                 </a>
                 <a
-                  class={style.footerLinkWithLogo}
-                  href="https://github.com/0bCoder/Smaller"
+                  class={style.footerLink}
+                  href="https://iters365.com/termsofuse/"
                 >
-                  <img src={githubLogo} alt="" width="10" height="10" />
-                  Source on Github
+                  使用策略
                 </a>
               </footer>
             </div>
