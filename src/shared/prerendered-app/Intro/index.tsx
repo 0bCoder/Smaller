@@ -442,11 +442,6 @@ export default class Intro extends Component<Props, State> {
             </div>
           </div>
         </footer>
-        {beforeInstallEvent && (
-          <button class={style.installBtn} onClick={this.onInstallClick}>
-            Install
-          </button>
-        )}
       </div>
     );
   }

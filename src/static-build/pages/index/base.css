@@ -22,10 +22,9 @@ img,
 
 html,
 body {
-  max-width: 1024px;
   height: 100%;
   padding: 0;
-  margin: auto;
+  margin: 0;
   font: 12px/1.3 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
     Helvetica, Arial, 'Lucida Grande', sans-serif;
   overflow: hidden;
@@ -36,6 +35,11 @@ body {
 }
 
 :global(#app) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  contain: strict;
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }

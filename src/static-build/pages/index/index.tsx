@@ -60,6 +60,11 @@ const Index: FunctionalComponent<Props> = () => (
       <meta name="theme-color" content="#ff3385" />
       <link rel="manifest" href="/manifest.json" />
       <link rel="canonical" href={siteOrigin} />
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2545962360562415"
+        crossOrigin="anonymous"
+      ></script>
       <style
         dangerouslySetInnerHTML={{ __html: escapeStyleScriptContent(baseCss) }}
       />
@@ -68,11 +73,6 @@ const Index: FunctionalComponent<Props> = () => (
           __html: escapeStyleScriptContent(initialCss),
         }}
       />
-      <script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2545962360562415"
-        crossOrigin="anonymous"
-      ></script>
     </head>
     <body>
       <div id="app">
@@ -100,11 +100,6 @@ const Index: FunctionalComponent<Props> = () => (
           </snack-bar>
         </noscript>
       </div>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: escapeStyleScriptContent(allSrc),
-        }}
-      />
       <div>
         <script
           async
