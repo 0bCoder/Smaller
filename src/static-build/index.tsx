@@ -94,17 +94,17 @@ const toOutput: Output = {
     },
   }),
   _headers: dedent`
-    /*
-      Cache-Control: no-cache
+    #/*
+    #  Cache-Control: no-cache
 
     # I don't think Rollup is cache-busting files correctly.
     #/c/*
     #  Cache-Control: max-age=31536000
 
     # COOP+COEP for WebAssembly threads.
-    /*
-      Cross-Origin-Embedder-Policy: require-corp
-      Cross-Origin-Opener-Policy: same-origin
+    #/*
+    #  Cross-Origin-Embedder-Policy: require-corp
+    #  Cross-Origin-Opener-Policy: same-origin
   `,
 };
 
