@@ -1,0 +1,7 @@
+{
+  "name": "i-iters365",
+  "compatibility_date": "2025-09-11",
+  "assets": {
+    "directory": "./build/"
+  }
+}

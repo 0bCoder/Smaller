@@ -27,14 +27,13 @@ interface Props {}
 const Index: FunctionalComponent<Props> = () => (
   <html lang="en">
     <head>
-      <title>Squoosh</title>
+      <title>Smaller</title>
       <meta
         name="description"
-        content="Squoosh is the ultimate image optimizer that allows you to compress and compare images with different codecs in your browser."
+        content="Smaller是一款卓越的图像优化工具，它让您能够在浏览器中压缩并对比采用不同编解码器的图像效果"
       />
       <meta name="twitter:card" content="summary" />
-      <meta name="twitter:site" content="@SquooshApp" />
-      <meta property="og:title" content="Squoosh" />
+      <meta property="og:title" content="Smaller 图片压缩" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content={`${siteOrigin}${ogImage}`} />
       <meta
@@ -44,13 +43,10 @@ const Index: FunctionalComponent<Props> = () => (
       <meta property="og:image:type" content="image/png" />
       <meta property="og:image:width" content="500" />
       <meta property="og:image:height" content="500" />
-      <meta
-        property="og:image:alt"
-        content="A cartoon of a hand squeezing an image file on a dark background."
-      />
+
       <meta
         name="og:description"
-        content="Squoosh is the ultimate image optimizer that allows you to compress and compare images with different codecs in your browser."
+        content="Smaller是一款卓越的图像优化工具，它让您能够在浏览器中压缩并对比采用不同编解码器的图像效果。."
       />
       <meta
         name="viewport"
@@ -89,11 +85,10 @@ const Index: FunctionalComponent<Props> = () => (
               aria-hidden="false"
             >
               <div class={snackbarStyle.text}>
-                Initialization error: This site requires JavaScript, which is
-                disabled in your browser.
+                初始化错误：此站点需要JavaScript支持，但您的浏览器已禁用该功能。
               </div>
               <a class={snackbarStyle.button} href="/">
-                reload
+                重新加载
               </a>
             </div>
           </snack-bar>
