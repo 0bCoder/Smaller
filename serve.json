@@ -6,10 +6,6 @@
         {
           "key": "Cache-Control",
           "value": "no-cache"
-        },
-        {
-          "key": "Cross-Origin-Opener-Policy",
-          "value": "cross-origin"
         }
       ]
     }
