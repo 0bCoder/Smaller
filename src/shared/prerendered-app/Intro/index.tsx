@@ -235,9 +235,11 @@ export default class Intro extends Component<Props, State> {
           ></script>
           <ins
             class="adsbygoogle"
-            style="display:inline-block;width:720px;height:120px"
+            style="display:block"
             data-ad-client="ca-pub-2545962360562415"
-            data-ad-slot="7081750762"
+            data-ad-slot="4758005604"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
           ></ins>
           <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
         </div>

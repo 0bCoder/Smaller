@@ -175,6 +175,7 @@
   color: var(--off-black);
   transition: color 400ms ease-in-out;
   margin-top: 1em;
+
   &:hover {
     color: var(--dim-blue);
   }
@@ -189,6 +190,7 @@
 
   @media (min-width: 712px) {
     justify-self: start;
+
     .info:nth-child(even) & {
       text-align: right;
       justify-self: end;
@@ -323,6 +325,7 @@
 
 .demo-container {
   transition: scale 400ms ease-in-out;
+
   &:hover {
     scale: 1.05;
   }
@@ -342,11 +345,13 @@
   position: relative;
   overflow: hidden;
 }
+
 .demo-icon {
   width: var(--demo-size);
   height: var(--demo-size);
   display: block;
 }
+
 .demo-loader {
   composes: abs-fill from global;
   background: rgba(0, 0, 0, 0.5);
