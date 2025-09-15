@@ -227,31 +227,39 @@ export default class Intro extends Component<Props, State> {
   ) {
     return (
       <div class={style.intro}>
-        <section class={style.info}>
-          <div class={style.infoContainer}>
-            <SlideOnScroll>
-              <div class={style.infoContent}>
-                <div class={style.infoTextWrapper}>
-                  <script
-                    async
-                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2545962360562415"
-                    crossOrigin="anonymous"
-                  ></script>
-                  <ins
-                    class="adsbygoogle"
-                    style="display:inline-block;width:720px;height:120px"
-                    data-ad-client="ca-pub-2545962360562415"
-                    data-ad-slot="7081750762"
-                  ></ins>
-                  <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                  </script>
-                </div>
-              </div>
-            </SlideOnScroll>
+        <div class={style.header}>
+          <div class={style.headerAds}>
+            <script
+              async
+              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2545962360562415"
+              crossOrigin="anonymous"
+            ></script>
+            <ins
+              class="adsbygoogle"
+              style="display:inline-block;width:720px;height:120px"
+              data-ad-client="ca-pub-2545962360562415"
+              data-ad-slot="7081750762"
+            ></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
           </div>
-        </section>
 
+          <div class={style.headerAdsm}>
+            <script
+              async
+              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2545962360562415"
+              crossOrigin="anonymous"
+            ></script>
+            <ins
+              class="adsbygoogle"
+              style="display:block"
+              data-ad-format="fluid"
+              data-ad-layout-key="-6a+cv+25+45-4v"
+              data-ad-client="ca-pub-2545962360562415"
+              data-ad-slot="4475834305"
+            ></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+          </div>
+        </div>
         <input
           class={style.hide}
           ref={linkRef(this, 'fileInput')}
