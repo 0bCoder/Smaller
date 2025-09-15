@@ -259,6 +259,15 @@
   }
 }
 
+.topads {
+  height: 120px;
+}
+
+.footerads {
+  padding: 5px;
+  background-color: white;
+}
+
 .footer-link {
   text-decoration: none;
   color: inherit;
