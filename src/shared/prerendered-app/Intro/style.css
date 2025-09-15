@@ -266,6 +266,9 @@
 .footerads {
   padding: 5px;
   background-color: white;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
 }
 
 .footer-link {
