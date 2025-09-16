@@ -75,22 +75,6 @@ const Index: FunctionalComponent<Props> = () => (
       />
     </head>
     <body>
-      <div class="topads">
-        <p>
-          <script
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2545962360562415"
-            crossOrigin="anonymous"
-          ></script>
-          <ins
-            class="adsbygoogle"
-            style="display:inline-block;width:720px;height:120px"
-            data-ad-client="ca-pub-2545962360562415"
-            data-ad-slot="7081750762"
-          ></ins>
-          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-        </p>
-      </div>
       <div id="app">
         <Intro />
         <noscript>
