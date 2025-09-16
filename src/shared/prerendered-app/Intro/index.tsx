@@ -416,33 +416,6 @@ export default class Intro extends Component<Props, State> {
           </div>
         </section>
 
-        <section class={style.info}>
-          <div class={style.infoContainer}>
-            <SlideOnScroll>
-              <div class={style.infoContent}>
-                <div class={style.infoTextWrapper}>
-                  <script
-                    async
-                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2545962360562415"
-                    crossOrigin="anonymous"
-                  ></script>
-                  <ins
-                    class="adsbygoogle"
-                    style="display:block"
-                    data-ad-format="fluid"
-                    data-ad-layout-key="-6a+cv+25+45-4v"
-                    data-ad-client="ca-pub-2545962360562415"
-                    data-ad-slot="7101997642"
-                  ></ins>
-                  <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                  </script>
-                </div>
-              </div>
-            </SlideOnScroll>
-          </div>
-        </section>
-
         <footer class={style.footer}>
           <div class={style.footerContainer}>
             <svg viewBox="0 0 1920 79" class={style.topWave}>
