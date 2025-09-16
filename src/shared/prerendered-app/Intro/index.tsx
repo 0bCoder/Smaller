@@ -227,21 +227,21 @@ export default class Intro extends Component<Props, State> {
   ) {
     return (
       <div class={style.intro}>
-        <div>
-          <script
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2545962360562415"
-            crossOrigin="anonymous"
-          ></script>
-          <ins
-            class="adsbygoogle"
-            style="display:block"
-            data-ad-client="ca-pub-2545962360562415"
-            data-ad-slot="4758005604"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          ></ins>
-          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        <div class={style.header}>
+          <div class={style.headerAds}>
+            <script
+              async
+              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2545962360562415"
+              crossOrigin="anonymous"
+            ></script>
+            <ins
+              class="adsbygoogle"
+              style="display:inline-block;width:720px;height:120px"
+              data-ad-client="ca-pub-2545962360562415"
+              data-ad-slot="7081750762"
+            ></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+          </div>
         </div>
         <input
           class={style.hide}
@@ -363,6 +363,33 @@ export default class Intro extends Component<Props, State> {
             <SlideOnScroll>
               <div class={style.infoContent}>
                 <div class={style.infoTextWrapper}>
+                  <script
+                    async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2545962360562415"
+                    crossOrigin="anonymous"
+                  ></script>
+                  <ins
+                    class="adsbygoogle"
+                    style="display:block; text-align:center;"
+                    data-ad-layout="in-article"
+                    data-ad-format="fluid"
+                    data-ad-client="ca-pub-2545962360562415"
+                    data-ad-slot="3096056687"
+                  ></ins>
+                  <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                  </script>
+                </div>
+              </div>
+            </SlideOnScroll>
+          </div>
+        </section>
+
+        <section class={style.info}>
+          <div class={style.infoContainer}>
+            <SlideOnScroll>
+              <div class={style.infoContent}>
+                <div class={style.infoTextWrapper}>
                   <h2 class={style.infoTitle}>更小</h2>
                   <p class={style.infoCaption}>
                     图片越小意味着加载时间越短.
@@ -426,6 +453,33 @@ export default class Intro extends Component<Props, State> {
                     width="498"
                     height="333"
                   />
+                </div>
+              </div>
+            </SlideOnScroll>
+          </div>
+        </section>
+
+        <section class={style.info}>
+          <div class={style.infoContainer}>
+            <SlideOnScroll>
+              <div class={style.infoContent}>
+                <div class={style.infoTextWrapper}>
+                  <script
+                    async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2545962360562415"
+                    crossOrigin="anonymous"
+                  ></script>
+                  <ins
+                    class="adsbygoogle"
+                    style="display:block"
+                    data-ad-format="fluid"
+                    data-ad-layout-key="-6a+cv+25+45-4v"
+                    data-ad-client="ca-pub-2545962360562415"
+                    data-ad-slot="7101997642"
+                  ></ins>
+                  <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                  </script>
                 </div>
               </div>
             </SlideOnScroll>
