@@ -242,23 +242,6 @@ export default class Intro extends Component<Props, State> {
             ></ins>
             <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
           </div>
-
-          <div class={style.headerAdsm}>
-            <script
-              async
-              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2545962360562415"
-              crossOrigin="anonymous"
-            ></script>
-            <ins
-              class="adsbygoogle"
-              style="display:block"
-              data-ad-format="fluid"
-              data-ad-layout-key="-6a+cv+25+45-4v"
-              data-ad-client="ca-pub-2545962360562415"
-              data-ad-slot="4475834305"
-            ></ins>
-            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-          </div>
         </div>
         <input
           class={style.hide}
